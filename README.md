@@ -32,24 +32,18 @@ of the BERT-related transformers classes like so:
     
     # TensorFlow
     model = TFBertModel.from_pretrained(pretrained_model_name, from_pt=True)
+    
+See the notebook `quickstart.ipynb` for more details.
 
-<!--
-## Model Fine-Tuning & Downstream Tasks 
-
-see repo <X>
--->
-
-## Disclaimer
-Note that the corpus that our Swedish BERT models are trained on is significantly
+## Remarks
+- Note that the corpus that our Swedish BERT models are trained on is significantly
 smaller than in the case of the original English BERT models.
 
-We are part of an ongoing effort to create a more sophisticated Swedish BERT model, 
+- We are part of an ongoing effort to create a more sophisticated Swedish BERT model, 
 see https://www.ri.se/sv/vad-vi-gor/projekt/sprakmodeller-svenska-myndigheter
 
 
 
 ## Contact
 
-- Magnus Bjelkenhed (magnus.bjelkenhed@arbetsformedlingen.se)
-- Mattias Bielsa (mattias.bielsa@arbetsformedlingen.se)
-- Felix Stollenwerk (felix.stollenwerk@arbetsformedlingen.se)
+swebert@arbetsformedlingen.se
