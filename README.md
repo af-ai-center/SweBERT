@@ -15,6 +15,7 @@ BERT models which were trained on Swedish Wikipedia with approximately
 
     24-layer, 1024-hidden, 16-heads, 340M parameters
 
+
 ## Usage
 The models can be used as part of the [transformers package](https://github.com/huggingface/transformers) 
 like any other built-in or community-uploaded model. 
@@ -31,15 +32,19 @@ of the BERT-related transformers classes like so:
     model = BertModel.from_pretrained(pretrained_model_name)
     
     # TensorFlow
-    model = TFBertModel.from_pretrained(pretrained_model_name, from_pt=True)
-    
-See the notebook `quickstart.ipynb` for more details.
+    model = TFBertModel.from_pretrained(pretrained_model_name)
+  
+  
+## Getting Started
+
+The notebook `getting_started_with_swebert.ipynb` gives a brief introduction on how to use the models.
+Make sure to run it in a virtual environment with the packages in `requirements.txt` installed.
 
 ## Remarks
 - Note that the corpus that our Swedish BERT models are trained on is significantly
 smaller than in the case of the original English BERT models.
 
-- We are part of an ongoing effort to create a more sophisticated Swedish BERT model, 
+- We are part of an ongoing effort to create more sophisticated Swedish BERT models, 
 see https://www.ri.se/sv/vad-vi-gor/projekt/sprakmodeller-svenska-myndigheter
 
 
