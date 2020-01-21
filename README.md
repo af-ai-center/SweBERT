@@ -8,12 +8,10 @@ BERT models which were trained on Swedish Wikipedia with approximately
 
 ## Available Model Types  
   
-- `bert-base-swedish-uncased`
-
+- `bert-base-swedish-uncased`: 
     12-layer, 768-hidden, 12-heads, 110M parameters
-    
-- `bert-large-swedish-uncased`
-
+ 
+- `bert-large-swedish-uncased`:
     24-layer, 1024-hidden, 16-heads, 340M parameters
     
 <br>
@@ -40,7 +38,7 @@ of the BERT-related transformers classes like so:
   
 ## Getting Started
 
-The notebook `getting_started_with_swebert.ipynb` gives a brief introduction on how to use the models.
+The notebook `getting_started_with_swebert.ipynb` shows some more details on how to use the models.
 
 Make sure to run it in a virtual environment with the packages in `requirements.txt` installed.
 
