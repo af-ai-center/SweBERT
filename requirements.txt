@@ -78,6 +78,7 @@ tensorflow-estimator==2.1.0
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
+tokenizers==0.2.1
 torch==1.3.1
 tornado==6.0.3
 tqdm==4.41.1
