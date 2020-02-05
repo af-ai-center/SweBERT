@@ -37,7 +37,9 @@ of the BERT-related transformers classes like so:
 
 The notebook `getting_started_with_swebert.ipynb` shows some more details on how to use the models.
 
-Make sure to run it in a virtual environment with the packages in `requirements.txt` installed.
+Make sure to run it in a virtual environment with the following packages installed:
+    
+    pip install torch tensorflow transformers tokenizers notebook
 
   
 ## Remarks
