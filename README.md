@@ -46,7 +46,7 @@ Make sure to run it in a virtual environment with the following packages install
 - Note that the corpus that our Swedish BERT models are trained on is significantly
 smaller than in the case of the original English BERT models.
 
-- We are part of an ongoing effort to create more sophisticated Swedish BERT models, 
+- We are part of an ongoing effort to create more sophisticated Swedish language models, 
 see https://www.ri.se/sv/vad-vi-gor/projekt/sprakmodeller-svenska-myndigheter
 
 
